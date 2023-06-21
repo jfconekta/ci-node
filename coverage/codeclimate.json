@@ -1,0 +1,46 @@
+{
+  "ci_service": {
+    "branch": "main",
+    "build_identifier": "",
+    "build_url": "",
+    "commit_sha": "d71dc01f9e81eaf5e7a87e716745c25daacd8c70",
+    "committed_at": 1687382332,
+    "name": ""
+  },
+  "environment": {
+    "gem_version": "3.2.32",
+    "package_version": "",
+    "pwd": "/home/juanf/ci-node",
+    "prefix": "/home/juanf/ci-node",
+    "rails_root": "",
+    "reporter_version": "0.11.1",
+    "simplecov_root": ""
+  },
+  "git": {
+    "branch": "main",
+    "head": "d71dc01f9e81eaf5e7a87e716745c25daacd8c70",
+    "committed_at": 1687382332
+  },
+  "covered_percent": 100,
+  "covered_strength": 0,
+  "line_counts": {
+    "missed": 0,
+    "covered": 5,
+    "total": 5
+  },
+  "source_files": [
+    {
+      "blob_id": "3aa62ba1e2eda99d1e233db8c16634f6cc86e1fd",
+      "coverage": "[1,null,1,null,null,null,null,1,null,null,1,null,null,1]",
+      "covered_percent": 100,
+      "covered_strength": 1,
+      "line_counts": {
+        "missed": 0,
+        "covered": 5,
+        "total": 5
+      },
+      "name": "calculator.js"
+    }
+  ],
+  "repo_token": ""
+}
