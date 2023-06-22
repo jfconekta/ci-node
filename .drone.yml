@@ -15,3 +15,6 @@ steps:
   - npm test
   - ./cc-test-reporter format-coverage -t lcov -o coverage/codeclimate.json coverage/lcov.info
   - ./cc-test-reporter upload-coverage
+  when:
+    event:
+    - pull_request
