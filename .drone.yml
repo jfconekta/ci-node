@@ -5,7 +5,7 @@ steps:
 - name: test
   image: node
   environment:
-     CC_TEST_REPORTER_ID: 
+     CC_TEST_REPORTER_ID:
          from_secret: cc_token
 
   commands:
