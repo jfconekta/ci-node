@@ -4,9 +4,9 @@ name: default
 steps:
 - name: test
   image: node
-  environment: 
+  environment:
      CC_TEST_REPORTER_ID: 
-         from_secret: cc_token 
+         from_secret: cc_token
 
   commands:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > "cc-test-reporter"
@@ -18,3 +18,4 @@ steps:
   when:
     event:
     - pull_request
+
